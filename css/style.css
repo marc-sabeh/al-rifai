@@ -1,0 +1,157 @@
+:root {
+    --orange: #f78223;
+    
+  }
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+/* navbar */
+.nav-item{
+    height: 100%;
+}
+
+.nav-item:hover{
+    background-color: var(--orange);
+}
+
+.btn-orange{
+    background-color: var(--orange);
+    color: white;
+}
+
+/* slider  */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    border-bottom: 5px var(--orange) solid;
+  }
+
+.slider{
+    background-color: blue;
+    height: 700px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  /* .swiper-button-next{
+     top: 98%;
+     color: white;
+  }
+  .swiper-button-prev{
+      top: 98%;
+      color: white;
+  } */
+
+.orange-line{
+    border: 2px var(--orange) solid;
+}
+
+/* who we are section  */
+.who-we-are{
+    background-image: url(/images/who_we_are_image.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height: 800px;
+}
+
+.title-who{
+    border-bottom: 5px var(--orange) solid;
+    color: white;
+    top: -200px;
+
+}
+.about-title{
+    color: white;
+}
+.about-text{
+    color: white;
+}
+
+.cont{
+    top:100px;
+}
+
+
+
+/* who we are section 2 */
+.who-we-are2{
+ 
+    height: 500px;
+}
+
+.title-who2{
+    border-bottom: 5px var(--orange) solid;
+    color: black;
+    top: -200px;
+
+}
+.about-title2{
+    color: black;
+}
+.about-text2{
+    color: black;
+}
+
+
+/* collection  */
+.collection{
+    background-image: url(/images/grey-16.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height: 800px;
+}
+.swiper-container-collection {
+    /* width: 100%;
+    height: 100%; */
+  }
+
+  .swiper-slide-collection {
+   background:transparent;
+  }
+
+
+  /* download  */
+.download{
+    background-image: url(/images/download.jpg);
+    background-position: left; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height: 800px;
+}
+
+.email{
+    background-image: url(/images/marble-2398946__340.webp);
+    background-position: left; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height: 300px;
+}
+
+.subscribe{
+    border: 0;
+}
